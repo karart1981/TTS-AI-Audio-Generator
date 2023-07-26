@@ -8,7 +8,7 @@ function generateAudio() {
     // speech settings, volume, etc
     utterance.voice = synth.getVoices().find(voice => voice.name === 'Your Preferred Voice');
     utterance.rate = 1.0; // Adjust the speech rate
-    utterance.pitch = 2.0; // Increase the pitch
+    utterance.pitch = 1.0; // Increase the pitch
     utterance.volume = 1.0; // Decrease the volume
     
     synth.speak(utterance);
